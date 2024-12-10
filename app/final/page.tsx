@@ -1,43 +1,36 @@
 export default function Page() {
 return (
     <>
-    <h1 className="ml-5 text-3xl" >Final Exam</h1>
-<form>
-    <label htmlFor= "product" className="ml-5">Product Description</label>
-    <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400" />
-    <br />
+    <h1 className="text-3xl ml-5">Final Exam</h1>
+    <form>
+      <label htmlFor="product" className="ml-5">Product Description</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <br />
+      <label htmlFor="Food" className="mx-5">Choose a food:</label>
+      <select name="foods" id="foods">
+      <option value="dumplings">Volvo</option>
+      <option value="chicken lo mein">Saab</option>
+      <option value="sushi">Mercedes</option>
+      <option value="fried rice">Audi</option>
+      </select>
 
-    <label htmlFor="food" className="mx-5">Choose a food: </label>
+      <br />
 
-<select name="food" id="food">
-    <option value = "dumplings"> Dumplings</option>
-    <option value = "chicken lo mein"> Chicken lo mein </option>
-    <option value = "sushi"> sushi</option>
-    <option value = "fried rice"> fried rice </option>
-</select>
+      <div className="ml-5 mt-5">
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label htmlFor="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label htmlFor="css">CSS</label><br />
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
+      <label htmlFor="javascript">JavaScript</label>
+      </div>
 
-<br /> 
-
-<div className="auto">
-<input type="sauces" id="html" name= "fav_food" value = "HTML" />
-<label htmlFor="html"> HTML</label> <br /> 
-<input type = "sauces" id="css" name= "fav_food" value = "CSS" />
-<label htmlFor="css">CSS</label><br />
-<input type="sauces" id="javascript" name="Fav_food" value= "Javascript" />
-<label htmlFor="javascript">JavaScript</label>
-</div>
-
-<br /> 
-
-<div className="lol">
-<input type="checkbox" id="food1" name="food" value="rice" /> 
-<label htmlFor="food1"> I have rice</label> <br />
-<input type="checkbox" id="food2" name="food2" value = "beef" />
-<label htmlFor="food2"> I have beef</label> <br />
-<input type="checkbox" id="food3" name="food3" value = "Turkey" />
-<label htmlFor = "food3" > I have turkey</label> <br></br>
-</div>
-)
+      <div className="ml-5 mt-5">
+      <input type="checkbox" id="food1" name="food1" value="Fried rice" />
+      <label htmlFor="food1"> I have fried rice</label><br />
+      <input type="checkbox" id="food2" name="food2" value="Beef" />
+      <label htmlFor="food2"> I have beef</label><br />
+      </div>
 
 
 
