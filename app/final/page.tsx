@@ -1,3 +1,4 @@
+export default function Page() {
 return (
     <>
     <h1 className="ml-5 text-3xl" >Final Exam</h1>
