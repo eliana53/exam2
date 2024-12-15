@@ -17,12 +17,12 @@ return (
       <br />
 
       <div className="ml-5 mt-5">
-      <input type="radio" id="html" name="fav_language" value="Home Page" />
-      <label htmlFor="html">HTML</label><br />
-      <input type="radio" id="css" name="fav_language" value="About Page" />
-      <label htmlFor="css">CSS</label><br />
-      <input type="radio" id="javascript" name="fav_language" value="Menu Page" />
-      <label htmlFor="javascript">JavaScript</label>
+      <input type="radio" id="Home" name="fav_language" value="Home" />
+      <label htmlFor="Home">HTML</label><br />
+      <input type="radio" id="About" name="fav_language" value="About" />
+      <label htmlFor="About">CSS</label><br />
+      <input type="radio" id="Menu" name="fav_language" value="Menu" />
+      <label htmlFor="Menu">JavaScript</label>
       </div>
 
       <div className="ml-5 mt-5">
