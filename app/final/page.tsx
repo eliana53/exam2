@@ -8,10 +8,10 @@ return (
       <br />
       <label htmlFor="Food" className="mx-5">Choose a food:</label>
       <select name="foods" id="foods">
-      <option value="dumplings">Volvo</option>
-      <option value="chicken lo mein">Saab</option>
-      <option value="sushi">Mercedes</option>
-      <option value="fried rice">Audi</option>
+      <option value="dumplings">Dumplings</option>
+      <option value="chicken lo mein">Chicken lo mein</option>
+      <option value="sushi">Sushi</option>
+      <option value="fried rice">Fried Rice</option>
       </select>
 
       <br />
